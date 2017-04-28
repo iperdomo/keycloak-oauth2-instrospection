@@ -4,13 +4,14 @@
 
 * Bash
 * JDK 8
+* [wget](https://www.gnu.org/software/wget/)
 * [curl](https://curl.haxx.se/)
 * [jq](https://stedolan.github.io/jq/)
 
 ## Usage
 
     export KC_VERSION=3.0.0.Final
-	./setup.sh && ./test.sh && ./tear_down.sh
+    ./setup.sh && ./test.sh && ./tear_down.sh
 
 ## Details
 
