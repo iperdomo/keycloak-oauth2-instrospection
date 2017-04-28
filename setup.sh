@@ -28,5 +28,5 @@ cp -v keycloak.h2.db ${KC_DIR}/standalone/data/
 ./${KC_DIR}/bin/standalone.sh -b 0.0.0.0 2>&1 > keycloak.log &
 
 # Wait for KC to start
-echo "Starting Keycloak. Waiting 45s..."
-sleep 45
+echo "Starting Keycloak. Waiting 60s..."
+sleep 60
