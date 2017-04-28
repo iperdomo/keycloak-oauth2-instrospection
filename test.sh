@@ -63,7 +63,7 @@ ACCESS_TOKEN_2=$(cat refreshed-tokens-2.json | jq .access_token | sed 's/"//g')
 curl -s \
      -d "client_id=validator" \
      -d "client_secret=dd3214ca-eb0a-49ea-94ad-3761f575b11b" \
-     -d "token=${ACCESS_TOKEN}" \
+     -d "token=${ACCESS_TOKEN_2}" \
      -d "token_type_hint=access_token" \
      http://localhost:8080/auth/realms/introspection/protocol/openid-connect/token/introspect > introspect-2.json
 
